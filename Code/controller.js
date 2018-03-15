@@ -1,5 +1,4 @@
 
-
 angular.module('app', ['onsen']);
 
 angular.module('app').controller('FilterController', function($scope, $http) {
@@ -191,8 +190,8 @@ angular.module('app').controller('DetailController', function($scope, $http) {
 
   // Foursquare api keys
     // do not remove " "
-    var clientID = " Your keys ";
-    var clientSecret = " your keys ";
+    var clientID = "KGWNUYGRJDLRKNMY5PY3K4Y1SXABBDHYP5DPHRVULNJU2SIL";
+    var clientSecret = "X45CYQSI1T4D3WROR3LCUTTWKOZVYGZN23YNP0JQBAODLKR4";
 
   $http.get(
     "https://api.foursquare.com/v2/venues/" +

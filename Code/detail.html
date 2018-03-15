@@ -15,8 +15,7 @@
   <div ng-show="obj.state == 'noResult'" class="noResults">No results found</div>
   <ons-list ng-show="obj.state == 'loaded'">
     <ons-row>
-      <ons-col style="min-height: 800">
-                                                                                // Your google map api key at the end of link and do not remove "
+      <ons-col style="min-height: 800">                                                                               
         <img ng-click="mapClick()" style="width:100%;" src="https://maps.googleapis.com/maps/api/staticmap?zoom=16&size=640x3200&maptype=roadmap&markers=color:blue%7Clabel:S%7C{{lat}},{{lng}}&key=AIzaSyBgLDuJByVkcEOOkzl6Gul0TsHFk6psQnI"
         />
       </ons-col>
